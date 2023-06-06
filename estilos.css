@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: orangered;
+    height: 60px;
+    margin-bottom: 30px;
+}
+
+header h1{
+    color: #fff;
+}
+
+main{
+    border-right: 2px solid orangered;
+    border-left: 2px solid orangered;
+    margin: 20px;
+}
+
+main .contenedor-general{
+    margin: auto;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: #f8e3cd;
+    margin-bottom: 40px;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+main .contenedor-general .tituolo-general {
+    background-color: orangered;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+main .contenedor-hijo{
+    width: 90%;
+    margin: auto;
+    background-color: #fff;
+}
+
+main .contenedor-hijo h2{
+  background-color: orangered;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+main .contenedor-general .contenedor-hijo .texto{
+    width: 80%;
+    display: inline-block;
+    vertical-align: top;
+    padding-left:10px ;
+}
+
+main .contenedor-general .contenedor-hijo .imagen{
+    display: inline;
+    position: relative;
+}
+
+main .contenedor-general .contenedor-hijo img{
+    border-left: 2px solid red;
+    position: relative;
+    padding: 0px  20px;
+    width: 200px;
+}
+
+main .contenedor-general .contenedor-hijo .descripcion-escritor{
+    position: absolute;
+    left: 30%;
+}
+
+.seccion2{
+    margin: auto;
+}
+
+.seccion2 .contenedor-general{
+    margin-bottom: 0;
+    background-color: #f8e3cd;
+}
+
+footer{
+    background-color: orangered;
+    color: #fff;
+    margin-bottom: 100px;
+}
